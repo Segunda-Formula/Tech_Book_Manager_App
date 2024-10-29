@@ -6,10 +6,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int opcion;
+        int opcion = 0;
         do {
             System.out.println("\nGestor de Libros Técnicos de Programación\n 1. Añadir libro\n 2. Ver todos los libros\n 3. Eliminar libro\n 4. Cambiar repositorio\n 5. Salir\n Seleccione una opción: ");
-            opcion = sc.nextInt();
+
+            String input = sc.nextLine();
+
+            try{
+                opcion = Integer.parseInt(input);
+            } catch (Exception ex){
+                System.out.println("Opción inválida. Por favor, introduce un número del 1 al 5.");
+                continue;
+            }
+
             if (opcion < 1 || opcion > 5) {
                 System.out.println("Opción inválida. Por favor, seleccione una opción del 1 al 5.");
             }
@@ -28,6 +37,7 @@ public class Main {
 
                 case 4:
                     System.out.println("Opción 4: Cambiar repositorio");
+                    break;
 
                 case 5:
                     System.out.println("Opción 5: Salir");
