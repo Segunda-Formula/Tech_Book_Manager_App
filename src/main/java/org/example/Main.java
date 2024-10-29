@@ -8,7 +8,7 @@ public class Main {
         System.out.println("\nGestor de Libros Técnicos de Programación\n 1. Añadir libro\n 2. Ver todos los libros\n 3. Eliminar libro\n 4. Cambiar repositorio\n 5. Salir\n Seleccione una opción: ");
 
         int opcion;
-        switch (opcion){
+        switch (opcion = 5 ){
             case 1:
                 System.out.println("Añadir libro");
                 break;
