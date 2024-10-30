@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86917a1c-f4a7-42a6-b217-68b4e189dfb5" name="Changes" comment="Creamos switch">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+>>>>>>> c684fad931b1f68f4e0c2e0287204a9af2be826b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +28,11 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Segunda-Formula/Tech_Book_Manager_App.git",
+<<<<<<< HEAD
     "accountId": "9fddcaf0-3d52-4929-bdb6-5bd6ce7752d7"
+=======
+    "accountId": "2f05121c-f228-4ee9-9d8d-42255fa9a24b"
+>>>>>>> c684fad931b1f68f4e0c2e0287204a9af2be826b
   }
 }]]></component>
   <component name="ProjectColorInfo">{
